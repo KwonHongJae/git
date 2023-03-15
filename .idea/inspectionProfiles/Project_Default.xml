@@ -1,0 +1,37 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="MavenPackageUpdate" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="excludeList">
+        <list>
+          <option value="cglib:cglib-nodep" />
+          <option value="com.amazonaws:aws-java-sdk" />
+          <option value="com.auth0:java-jwt" />
+          <option value="com.auth0:jwks-rsa" />
+          <option value="com.drewnoakes:metadata-extractor" />
+          <option value="com.fasterxml.jackson.core:jackson-databind" />
+          <option value="com.google.firebase:firebase-admin" />
+          <option value="commons-codec:commons-codec" />
+          <option value="commons-fileupload:commons-fileupload" />
+          <option value="commons-io:commons-io" />
+          <option value="javax.servlet:javax.servlet-api" />
+          <option value="mysql:mysql-connector-java" />
+          <option value="net.nurigo:sdk" />
+          <option value="org.apache.commons:commons-lang3" />
+          <option value="org.apache.poi:poi-ooxml" />
+          <option value="org.jsoup:jsoup" />
+          <option value="org.mybatis:mybatis-spring" />
+          <option value="org.slf4j:slf4j-log4j12" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="SpellCheckingInspection" enabled="false" level="TYPO" enabled_by_default="false">
+      <option name="processCode" value="true" />
+      <option name="processLiterals" value="true" />
+      <option name="processComments" value="true" />
+    </inspection_tool>
+    <inspection_tool class="SqlDialectInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlNoDataSourceInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlResolveInspection" enabled="false" level="ERROR" enabled_by_default="false" />
+  </profile>
+</component>
